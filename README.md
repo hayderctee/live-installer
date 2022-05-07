@@ -1,2 +1,2 @@
 # live-installer
-A live installer for the Uruk GNU/Linux
+A live installer for Uruk GNU/Linux
