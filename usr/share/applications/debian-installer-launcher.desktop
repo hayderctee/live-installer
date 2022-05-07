@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Install Linux Mint
+Name=Install Uruk GNU/Linux
 GenericName=Live Installer
 Comment=Install the operating system to disk
 Exec=sudo /usr/bin/live-installer
