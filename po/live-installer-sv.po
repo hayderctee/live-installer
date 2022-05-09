@@ -1,11 +1,11 @@
-# Swedish translation for linuxmint
+# Swedish translation for urukos
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the linuxmint package.
+# This file is distributed under the same license as the urukos package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: linuxmint\n"
+"Project-Id-Version: urukos\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-03-07 12:03+0000\n"
 "PO-Revision-Date: 2022-03-07 23:40+0000\n"
@@ -566,13 +566,13 @@ msgstr "Var god välj en rootpartition (/)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:962
 msgid ""
-"A root partition is needed to install Linux Mint on.\n"
+"A root partition is needed to install UrukOS on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"
 " - Recommended filesystem format: ext4\n"
 msgstr ""
-"Det behövs en root-partition för att installera Linux Mint\n"
+"Det behövs en root-partition för att installera UrukOS\n"
 "\n"
 " Monteringspunkt: /\n"
 " Rekommenderad storlek: 30 GB\n"

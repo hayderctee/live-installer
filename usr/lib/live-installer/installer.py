@@ -1,3 +1,4 @@
+
 import os
 import re
 import subprocess
@@ -21,7 +22,7 @@ class InstallerEngine:
         self.setup = setup
 
         # find the squashfs..
-        self.media = '/run/live/medium/live/filesystem.squashfs'
+        self.media = '/cdrom/casper/filesystem.squashfs'
         if(not os.path.exists(self.media) and not __debug__):
             print("Critical Error: Live medium (%s) not found!" % self.media)
             sys.exit(1)
@@ -55,6 +56,7 @@ class InstallerEngine:
         os.system("umount --force /target/sys/")
         os.system("umount --force /target/proc/")
         os.system("umount --force /target/run/")
+        os.system("swapoff -a")
 
         self.mount_source()
 
@@ -126,9 +128,9 @@ class InstallerEngine:
             os.system("mount --bind /sys/firmware/efi/efivars /target/sys/firmware/efi/efivars/")
 
         kernelversion= subprocess.getoutput("uname -r")
-        os.system("cp /run/live/medium/live/vmlinuz /target/boot/vmlinuz-%s" % kernelversion)
+        os.system("cp /cdrom/casper/vmlinuz /target/boot/vmlinuz-%s" % kernelversion)
         found_initrd = False
-        for initrd in ["/run/live/medium/live/initrd.img", "/run/live/medium/live/initrd.lz"]:
+        for initrd in ["/cdrom/casper/initrd.img", "/cdrom/casper/initrd.lz"]:
             if os.path.exists(initrd):
                 os.system("cp %s /target/boot/initrd.img-%s" % (initrd, kernelversion))
                 found_initrd = True
@@ -137,39 +139,14 @@ class InstallerEngine:
         if not found_initrd:
             print("WARNING: No initrd found!!")
 
-        if self.setup.grub_device and self.setup.gptonefi:
-            print(" --> Installing signed boot loader")
-            os.system("mkdir -p /target/debs")
-            os.system("cp /run/live/medium/pool/main/g/grub2/grub-efi* /target/debs/")
-            os.system("cp /run/live/medium/pool/main/g/grub-efi-amd64-signed/* /target/debs/")
-            os.system("cp /run/live/medium/pool/main/s/shim*/* /target/debs/")
-            self.do_run_in_chroot("DEBIAN_FRONTEND=noninteractive apt-get remove --purge --yes grub-pc")
-            self.do_run_in_chroot("dpkg -i /debs/*")
-            os.system("rm -rf /target/debs")
-
-        print(" --> Installing microcode packages")
-        os.system("mkdir -p /target/debs")
-        os.system("cp /run/live/medium/pool/non-free/i/intel-microcode/* /target/debs/")
-        os.system("cp /run/live/medium/pool/non-free/a/amd64-microcode/* /target/debs/")
-        os.system("cp /run/live/medium/pool/contrib/i/iucode-tool/* /target/debs/")
-        self.do_run_in_chroot("dpkg -i /debs/*")
-        os.system("rm -rf /target/debs")
-
-        # Detect cdrom device
-        # TODO : properly detect cdrom device
-        # Mount it
-        # os.system("mkdir -p /target/media/cdrom")
-        # if (int(os.system("mount /dev/sr0 /target/media/cdrom"))):
-        #     print(" --> Failed to mount CDROM. Install will fail")
-        # self.do_run_in_chroot("apt-cdrom -o Acquire::cdrom::AutoDetect=false -m add")
 
         # remove live-packages (or w/e)
         print(" --> Removing live packages")
         our_current += 1
         self.update_progress(our_current, our_total, False, False, _("Removing live configuration (packages)"))
-        with open("/run/live/medium/live/filesystem.packages-remove", "r") as fd:
-            line = fd.read().replace('\n', ' ')
-        self.do_run_in_chroot("apt-get remove --purge --yes --force-yes %s" % line)
+        #with open("/cdrom/casper/filesystem.packages-remove", "r") as fd:
+            #line = fd.read().replace('\n', ' ')
+        self.do_run_in_chroot("apt-get remove --purge --yes --force-yes casper* gfxboot-theme-* live-* circle-flags-svg ")
 
         # remove live leftovers
         self.do_run_in_chroot("rm -rf /etc/live")
@@ -513,50 +490,7 @@ class InstallerEngine:
         os.system("rm -f /target/etc/localtime")
         os.system("ln -s /usr/share/zoneinfo/%s /target/etc/localtime" % self.setup.timezone)
 
-        # localizing
-        print(" --> Localizing packages")
-        self.update_progress(our_current, our_total, False, False, _("Localizing packages"))
-        if self.setup.language != "en_US":
-            os.system("mkdir -p /target/debs")
-            language_code = self.setup.language
-            if "_" in self.setup.language:
-                language_code = self.setup.language.split("_")[0]
-            l10ns = subprocess.getoutput("find /run/live/medium/pool | grep 'l10n-%s\\|hunspell-%s'" % (language_code, language_code))
-            for l10n in l10ns.split("\n"):
-                os.system("cp %s /target/debs/" % l10n)
-            self.do_run_in_chroot("dpkg -i /debs/*")
-            os.system("rm -rf /target/debs")
 
-        if os.path.exists("/etc/linuxmint/info"):
-            # drivers
-            print(" --> Installing drivers")
-            self.update_progress(our_current, our_total, False, False, _("Installing drivers"))
-
-            # Broadcom
-            drivers = subprocess.getoutput("mint-drivers")
-            if "broadcom-sta-dkms" in drivers:
-                try:
-                    os.system("mkdir -p /target/debs")
-                    os.system("cp /run/live/medium/pool/non-free/b/broadcom-sta/*.deb /target/debs/")
-                    self.do_run_in_chroot("dpkg -i /debs/*")
-                    self.do_run_in_chroot("modprobe wl")
-                    os.system("rm -rf /target/debs")
-                except:
-                    print("Failed to install Broadcom drivers")
-
-            # NVIDIA
-            driver = "/usr/share/live-installer/nvidia-driver.tar.gz"
-            if os.path.exists(driver):
-                if "install-nvidia" in subprocess.getoutput("cat /proc/cmdline"):
-                    print(" --> Installing NVIDIA driver")
-                    try:
-                        self.do_run_in_chroot("tar zxvf %s" % driver)
-                        self.do_run_in_chroot("DEBIAN_FRONTEND=noninteractive dpkg -i --force-depends nvidia-driver/*.deb")
-                        self.do_run_in_chroot("rm -rf nvidia-driver")
-                    except Exception as e:
-                        print("Failed to install NVIDIA driver: ", e)
-
-                os.system("rm -f /target/usr/share/live-installer/nvidia-driver.tar.gz")
 
         # set the keyboard options..
         print(" --> Setting the keyboard")
@@ -627,20 +561,20 @@ class InstallerEngine:
             self.do_run_in_chroot("update-grub")
             self.do_configure_grub(our_total, our_current)
             grub_retries = 0
-            while (not self.do_check_grub(our_total, our_current)):
-                self.do_configure_grub(our_total, our_current)
-                grub_retries = grub_retries + 1
-                if grub_retries >= 5:
-                    self.error_message(message=_("WARNING: The grub bootloader was not configured properly! You need to configure it manually."))
-                    break
+            #while (not self.do_check_grub(our_total, our_current)):
+                #self.do_configure_grub(our_total, our_current)
+                #grub_retries = grub_retries + 1
+                #if grub_retries >= 5:
+                    #self.error_message(message=_("WARNING: The grub bootloader was not configured properly! You need to configure it manually."))
+                    #break
 
         # recreate initramfs (needed in case of skip_mount also, to include things like mdadm/dm-crypt/etc in case its needed to boot a custom install)
         print(" --> Configuring Initramfs")
         our_current += 1
         self.do_run_in_chroot("/usr/sbin/update-initramfs -t -u -k all")
-        self.do_run_in_chroot("/usr/share/debian-system-adjustments/systemd/adjust-grub-title")
+        #self.do_run_in_chroot("/usr/share/debian-system-adjustments/systemd/adjust-grub-title")
         kernelversion= subprocess.getoutput("uname -r")
-        self.do_run_in_chroot("/usr/bin/sha1sum /boot/initrd.img-%s > /var/lib/initramfs-tools/%s" % (kernelversion,kernelversion))
+        #self.do_run_in_chroot("/usr/bin/sha1sum /boot/initrd.img-%s > /var/lib/initramfs-tools/%s" % (kernelversion,kernelversion))
 
         # Clean APT
         print(" --> Cleaning APT")
@@ -700,21 +634,21 @@ class InstallerEngine:
     def do_check_grub(self, our_total, our_current):
         self.update_progress(our_current, our_total, True, False, _("Checking bootloader"))
         print(" --> Checking Grub configuration")
-        time.sleep(5)
-        found_entry = False
-        if os.path.exists("/target/boot/grub/grub.cfg"):
-            self.do_run_in_chroot("/usr/share/debian-system-adjustments/systemd/adjust-grub-title")
-            grubfh = open("/target/boot/grub/grub.cfg", "r")
-            for line in grubfh:
-                line = line.rstrip("\r\n")
-                if ("menuentry" in line and ("class linuxmint" in line or "Linux Mint" in line or "LMDE" in line)):
-                    found_entry = True
-                    print(" --> Found Grub entry: %s " % line)
-            grubfh.close()
-            return (found_entry)
-        else:
-            print("!No /target/boot/grub/grub.cfg file found!")
-            return False
+        #time.sleep(5)
+        #found_entry = False
+        #if os.path.exists("/target/boot/grub/grub.cfg"):
+            #self.do_run_in_chroot("/usr/share/debian-system-adjustments/systemd/adjust-grub-title")
+            #grubfh = open("/target/boot/grub/grub.cfg", "r")
+            #for line in grubfh:
+                #line = line.rstrip("\r\n")
+                #if ("menuentry" in line and ("class linuxmint" in line or "Linux Mint" in line or "LMDE" in line)):
+                    #found_entry = True
+                    #print(" --> Found Grub entry: %s " % line)
+           # grubfh.close()
+           # return (found_entry)
+        #else:
+            #print("!No /target/boot/grub/grub.cfg file found!")
+            #return False
 
     def do_mount(self, device, dest, type, options=None):
         ''' Mount a filesystem '''

@@ -1,7 +1,7 @@
 # translation of live-installer_live-installer-is.po to Icelandic
-# Icelandic translation for linuxmint
+# Icelandic translation for urukos
 # Copyright (c) 2010 Free Software Foundation
-# This file is distributed under the same license as the linuxmint package.
+# This file is distributed under the same license as the urukos package.
 #
 # Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2014, 2015, 2020.
 msgid ""
@@ -572,13 +572,13 @@ msgstr "Veldu einhverja disksneið sem grunndisksneið (/ - root)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:962
 msgid ""
-"A root partition is needed to install Linux Mint on.\n"
+"A root partition is needed to install UrukOS on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"
 " - Recommended filesystem format: ext4\n"
 msgstr ""
-"Rótardisksneið er nauðsynleg til að setja Linux Mint upp á.\n"
+"Rótardisksneið er nauðsynleg til að setja UrukOS upp á.\n"
 "\n"
 " - Tengipunktur: /\n"
 " - Ákjósanleg stærð: 30GB\n"

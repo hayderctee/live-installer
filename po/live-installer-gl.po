@@ -1,11 +1,11 @@
-# Galician translation for linuxmint
+# Galician translation for urukos
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the linuxmint package.
+# This file is distributed under the same license as the urukos package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: linuxmint\n"
+"Project-Id-Version: urukos\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-03-07 12:03+0000\n"
 "PO-Revision-Date: 2019-10-19 17:36+0000\n"
@@ -556,7 +556,7 @@ msgstr "Seleccione unha partición raíz (/)."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:962
 msgid ""
-"A root partition is needed to install Linux Mint on.\n"
+"A root partition is needed to install UrukOS on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"

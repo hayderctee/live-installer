@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: livemaker
-Upstream-Contact: Clement Lefebvre <root@linuxmint.com>
-Source: <http://github.com/linuxmint/live-installer>
+Upstream-Contact: Hayder Majid <hayder@riseup.net>
+Source: <https://github.com/hayderctee/live-installer>
 
 Files: *
 Copyright: 2010 Clement Lefebvre <root@linuxmint.com>

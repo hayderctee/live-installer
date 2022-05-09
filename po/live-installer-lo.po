@@ -1,11 +1,11 @@
-# Lao translation for linuxmint
+# Lao translation for urukos
 # Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
-# This file is distributed under the same license as the linuxmint package.
+# This file is distributed under the same license as the urukos package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: linuxmint\n"
+"Project-Id-Version: urukos\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-03-07 12:03+0000\n"
 "PO-Revision-Date: 2015-06-22 12:36+0000\n"
@@ -538,7 +538,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:962
 msgid ""
-"A root partition is needed to install Linux Mint on.\n"
+"A root partition is needed to install UrukOS on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"
