@@ -191,8 +191,8 @@ msgstr "Vrsta namestitve"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Kam želite nametiti LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Kam želite nametiti Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr "Dobrodošli v %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Ta program vam zastavi nekaj vprašanj in vzpostavi LMDE na vašem računalniku."
+"Ta program vam zastavi nekaj vprašanj in vzpostavi Uruk GNU/Linux 3.0 na vašem računalniku."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -326,8 +326,8 @@ msgstr "Samodejna namestitev"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Izbrišite disk in nanj namestite LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Izbrišite disk in nanj namestite Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -361,8 +361,8 @@ msgstr "Ročna določitev particij"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Ročno ustvarite, spremenite velikost ali izberite particije za LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Ročno ustvarite, spremenite velikost ali izberite particije za Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

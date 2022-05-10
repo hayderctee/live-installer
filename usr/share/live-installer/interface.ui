@@ -62,7 +62,7 @@
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
                     <property name="pixel_size">140</property>
-                    <property name="icon_name">linuxmint-logo-filled-ring</property>
+                    <property name="icon_name">uruk</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -74,7 +74,7 @@
                   <object class="GtkLabel" id="label_welcome1">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">Welcome to %s!</property>
+                    <property name="label" translatable="yes">Welcome to Uruk GNU/Linux 3.0!</property>
                     <property name="justify">center</property>
                     <attributes>
                       <attribute name="weight" value="bold"/>
@@ -91,7 +91,7 @@
                   <object class="GtkLabel" id="label_welcome2">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">This program will ask you some questions and set up LMDE on your computer.</property>
+                    <property name="label" translatable="yes">This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer.</property>
                     <property name="use_markup">True</property>
                     <property name="justify">center</property>
                     <property name="wrap">True</property>
@@ -861,7 +861,7 @@
                                 <property name="spacing">3</property>
                                 <child>
                                   <object class="GtkRadioButton" id="radiobutton_autologin">
-                                    <property name="label" translatable="yes">Log in automatically</property>
+                                    <property name="label" translatable="yes">Log in automatically (not secure)</property>
                                     <property name="visible">True</property>
                                     <property name="can_focus">True</property>
                                     <property name="receives_default">False</property>
@@ -971,7 +971,7 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">False</property>
                                     <property name="halign">start</property>
-                                    <property name="label" translatable="yes">Erase a disk and install LMDE on it.</property>
+                                    <property name="label" translatable="yes">Erase a disk and install Uruk OS on it.</property>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>
@@ -1244,7 +1244,7 @@
                                     <property name="visible">True</property>
                                     <property name="can_focus">False</property>
                                     <property name="halign">start</property>
-                                    <property name="label" translatable="yes">Manually create, resize or choose partitions for LMDE.</property>
+                                    <property name="label" translatable="yes">Manually create, resize or choose partitions for Uruk OS.</property>
                                   </object>
                                   <packing>
                                     <property name="expand">False</property>

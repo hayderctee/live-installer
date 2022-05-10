@@ -191,8 +191,8 @@ msgstr "Тип инсталация"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Къде искате да инсталирате LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Къде искате да инсталирате Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Програмата ще ви зададе няколко въпроса и ще инсталира LMDE на вашия "
+"Програмата ще ви зададе няколко въпроса и ще инсталира Uruk GNU/Linux 3.0 на вашия "
 "компютър."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -322,8 +322,8 @@ msgstr "Автоматизирана инсталация"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Изтрий диска и инсталирай LMDE на него."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Изтрий диска и инсталирай Uruk GNU/Linux 3.0 на него."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -357,8 +357,8 @@ msgstr "Ръчно разделяне"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Ръчно създайте, оразмерете и изберете дялове за LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Ръчно създайте, оразмерете и изберете дялове за Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

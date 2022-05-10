@@ -188,8 +188,8 @@ msgstr "インストールの方法"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "どこに LMDE をインストールしますか？"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "どこに Uruk GNU/Linux 3.0 をインストールしますか？"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -240,8 +240,8 @@ msgstr "Welcome to %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
-msgstr "このプログラムは、お使いのコンピューターに LMDE をセットアップする手助けをします。"
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
+msgstr "このプログラムは、お使いのコンピューターに Uruk GNU/Linux 3.0 をセットアップする手助けをします。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -320,8 +320,8 @@ msgstr "自動インストール"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "ディスクの中身を削除して LMDE をインストールします。"
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "ディスクの中身を削除して Uruk GNU/Linux 3.0 をインストールします。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -355,8 +355,8 @@ msgstr "パーティションの手動設定"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "LMDE 用のパーティションを自分で作成、変更、選択します。"
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Uruk GNU/Linux 3.0 用のパーティションを自分で作成、変更、選択します。"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

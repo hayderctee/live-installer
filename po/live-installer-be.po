@@ -189,8 +189,8 @@ msgstr "Тып усталёўкі"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Куды жадаеце ўсталяваць LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Куды жадаеце ўсталяваць Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -241,9 +241,9 @@ msgstr "Вітаем у %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Гэта праграма задасць некалькі пытанняў і ўсталюе LMDE на ваш камп'ютар."
+"Гэта праграма задасць некалькі пытанняў і ўсталюе Uruk GNU/Linux 3.0 на ваш камп'ютар."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -323,8 +323,8 @@ msgstr "Аўтаматызаванае ўсталяванне"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Сцерці дыск і ўсталяваць на яго LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Сцерці дыск і ўсталяваць на яго Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -358,8 +358,8 @@ msgstr "Разбіць на падзелы ўручную"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Уручную стварыць, змяніць аб'ём ці выбраць падзелы для LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Уручную стварыць, змяніць аб'ём ці выбраць падзелы для Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

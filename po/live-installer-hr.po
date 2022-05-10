@@ -191,8 +191,8 @@ msgstr "Vrsta instalacije"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Gdje želite instalirati LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Gdje želite instalirati Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr "Dobrodošli u %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Ovaj program će vas upitati nekoliko pitanja i podesiti LMDE za rad na vašem "
+"Ovaj program će vas upitati nekoliko pitanja i podesiti Uruk GNU/Linux 3.0 za rad na vašem "
 "računalu."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -326,8 +326,8 @@ msgstr "Automatska instalacija"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Obriši disk i instaliraj LMDE na njega."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Obriši disk i instaliraj Uruk GNU/Linux 3.0 na njega."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -361,9 +361,9 @@ msgstr "Ručno particioniranje"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
 msgstr ""
-"Ručno, stvorite, promijenite veličinu ili odaberite particije za LMDE."
+"Ručno, stvorite, promijenite veličinu ili odaberite particije za Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

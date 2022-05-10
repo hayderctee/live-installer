@@ -191,8 +191,8 @@ msgstr "Diegimo tipas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Kur norite įdiegti LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Kur norite įdiegti Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,10 +243,10 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
 "Ši programa užduos jums kai kuriuos klausimus ir nustatys jūsų kompiuteryje "
-"LMDE."
+"Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -322,8 +322,8 @@ msgstr "Automatizuotas diegimas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Ištrinti diską ir įdiegti jame LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Ištrinti diską ir įdiegti jame Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -357,9 +357,9 @@ msgstr "Rankinis skaidymas"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
 msgstr ""
-"Rankiniu būdu kurti, pasirinkti ar keisti LMDE skirtų skaidinių dydžius."
+"Rankiniu būdu kurti, pasirinkti ar keisti Uruk GNU/Linux 3.0 skirtų skaidinių dydžius."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

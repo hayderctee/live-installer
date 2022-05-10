@@ -192,8 +192,8 @@ msgstr "Telepítés típusa"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Hova kívánja telepíteni az LMDE rendszert?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Hova kívánja telepíteni az Uruk GNU/Linux 3.0 rendszert?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -244,9 +244,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"A program néhány kérdést tesz fel az LMDE rendszer számítógépére történő "
+"A program néhány kérdést tesz fel az Uruk GNU/Linux 3.0 rendszer számítógépére történő "
 "telepítéssel kapcsolatban."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -325,8 +325,8 @@ msgstr "Automatizált telepítés"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Egy lemez törlése és az LMDE rendszer telepítése"
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Egy lemez törlése és az Uruk GNU/Linux 3.0 rendszer telepítése"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -360,9 +360,9 @@ msgstr "Kézi particionálás"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
 msgstr ""
-"Hozza létre, méretezze át, válassza ki a partíciókat az LMDE rendszer "
+"Hozza létre, méretezze át, válassza ki a partíciókat az Uruk GNU/Linux 3.0 rendszer "
 "számára."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346

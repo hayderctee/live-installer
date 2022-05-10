@@ -191,8 +191,8 @@ msgstr "Tipo de instalo"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Kie vi volas instali LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Kie vi volas instali Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr "Bonvenon al %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Ĉi tiu programo starigos al vi kelkajn demandojn kaj agordos LMDE sur via "
+"Ĉi tiu programo starigos al vi kelkajn demandojn kaj agordos Uruk GNU/Linux 3.0 sur via "
 "komputilo."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -326,8 +326,8 @@ msgstr "Aŭtomatigita instalado"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Forviŝi diskon kaj instali LMDE sur ĝin."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Forviŝi diskon kaj instali Uruk GNU/Linux 3.0 sur ĝin."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -361,8 +361,8 @@ msgstr "Permana dispartigo"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Permane krei, regrandigi aŭ elekti subdiskojn por LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Permane krei, regrandigi aŭ elekti subdiskojn por Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

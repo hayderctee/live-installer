@@ -190,8 +190,8 @@ msgstr "Genus Institutionis"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Ubi LMDE instituere velis?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Ubi Uruk GNU/Linux 3.0 instituere velis?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -242,9 +242,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Hoc programma tibi quaestiones petet et LMDE in tuum computatorem instituet."
+"Hoc programma tibi quaestiones petet et Uruk GNU/Linux 3.0 in tuum computatorem instituet."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -320,8 +320,8 @@ msgstr "Institutio Automatica"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Discum erade atque ibidem LMDE institue."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Discum erade atque ibidem Uruk GNU/Linux 3.0 institue."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -355,8 +355,8 @@ msgstr "Partitio Manibus"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Manibus partitiones pro LMDE crea, reforma aut elige."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Manibus partitiones pro Uruk GNU/Linux 3.0 crea, reforma aut elige."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

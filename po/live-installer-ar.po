@@ -184,8 +184,8 @@ msgstr "نوع التثبيث"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr ""
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "اين ترغب بتثبيت Uruk GNU/Linux3.0"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -236,23 +236,23 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
-msgstr ""
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
+msgstr "سيقوم البرنامج بسؤالك بضع اسئلةليتم اعداد النظام على جهازك"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
 msgid "Let's go!"
-msgstr ""
+msgstr "لنبدأ!"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:318
 #: usr/share/live-installer/interface.ui.h:6
 msgid "Keyboard Model:"
-msgstr ""
+msgstr "نوع الكيبورد"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:321
 #: usr/share/live-installer/interface.ui.h:7
 msgid "Type here to test your keyboard layout"
-msgstr ""
+msgstr "اكتب هنا لتجربة اللغة"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:322
 msgid ""
@@ -313,8 +313,8 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr ""
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "امسح القرص و قم بتثبيت Uruk GNU/Linux"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -324,7 +324,7 @@ msgstr "القرص:"
 #: usr/lib/live-installer/frontend/gtk_interface.py:340
 #: usr/share/live-installer/interface.ui.h:21
 msgid "Encrypt the operating system"
-msgstr ""
+msgstr "شفّر نظام التشغيل"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:341
 #: usr/share/live-installer/interface.ui.h:22
@@ -339,27 +339,27 @@ msgstr "تأكيد عبارة المرور"
 #: usr/lib/live-installer/frontend/gtk_interface.py:343
 #: usr/share/live-installer/interface.ui.h:20
 msgid "Use LVM (Logical Volume Management)"
-msgstr ""
+msgstr "استخدم LVM"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:344
 #: usr/share/live-installer/interface.ui.h:26
 msgid "Manual Partitioning"
-msgstr ""
+msgstr "تقسيم مخصص"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr ""
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "قم بإنشاء او اعادة تحجيم او اختيار القرص لتثبيت Uruk GNU/Linux"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25
 msgid "Fill the disk with random data"
-msgstr ""
+msgstr "املأ القرص ببيانات عشوائية"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:347
 #: usr/share/live-installer/interface.ui.h:24
 msgid "This provides extra security but it can take hours."
-msgstr ""
+msgstr "هذا الامر يعطي امان اعلى , لكنه قد يستغرق وقتا اطول"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:350
 #: usr/share/live-installer/interface.ui.h:29
@@ -402,7 +402,7 @@ msgstr "مساحة حرة"
 #: usr/lib/live-installer/frontend/gtk_interface.py:364
 #: usr/share/live-installer/interface.ui.h:30
 msgid "Install the GRUB boot menu on:"
-msgstr ""
+msgstr "قسم بتثبيت محمل الاقلاع على :"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:367
 #: usr/share/live-installer/interface.ui.h:31

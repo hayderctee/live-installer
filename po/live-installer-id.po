@@ -191,8 +191,8 @@ msgstr "Jenis Pemasangan"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Di mana Anda ingin memasang LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Di mana Anda ingin memasang Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Program ini akan menanyakan beberapa pertanyaan dan mengatur LMDE di "
+"Program ini akan menanyakan beberapa pertanyaan dan mengatur Uruk GNU/Linux 3.0 di "
 "komputer Anda."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -322,8 +322,8 @@ msgstr "Pemasangan Otomatis"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Hapus disk dan pasang LMDE di atasnya."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Hapus disk dan pasang Uruk GNU/Linux 3.0 di atasnya."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -357,8 +357,8 @@ msgstr "Partisi Manual"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Buat, ubah ukuran, atau pilih partisi secara manual untuk LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Buat, ubah ukuran, atau pilih partisi secara manual untuk Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

@@ -191,8 +191,8 @@ msgstr "Tip instalare"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Unde doriți să instalați LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Unde doriți să instalați Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr "Bun venit în %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Acest program vă va pune câteva întrebări, pentru configurarea LMDE pe "
+"Acest program vă va pune câteva întrebări, pentru configurarea Uruk GNU/Linux 3.0 pe "
 "computer."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -326,8 +326,8 @@ msgstr "Instalare automată"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Ștergeți un disc și instalați LMDE pe el."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Ștergeți un disc și instalați Uruk GNU/Linux 3.0 pe el."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -361,8 +361,8 @@ msgstr "Partitionare manuala"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Creați manual, redimensionați sau alegeți partiții pentru LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Creați manual, redimensionați sau alegeți partiții pentru Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

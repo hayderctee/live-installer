@@ -193,8 +193,8 @@ msgstr "Asennustapa"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Mihin haluat asentaa LMDE:n?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Mihin haluat asentaa Uruk GNU/Linux 3.0:n?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -245,10 +245,10 @@ msgstr "Tervetuloa %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
 "Ohjelma esittää sinulle muutamia kysymyksiä asettaessaan tietokoneeseesi "
-"LMDE:tä."
+"Uruk GNU/Linux 3.0:tä."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -327,8 +327,8 @@ msgstr "Automatisoitu asennus"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Tyhjennä levy ja asenna sille LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Tyhjennä levy ja asenna sille Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -362,8 +362,8 @@ msgstr "Osioi itse"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Luo ja valitse LMDE:n osiot itse tai muuta niiden kokoa."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Luo ja valitse Uruk GNU/Linux 3.0:n osiot itse tai muuta niiden kokoa."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

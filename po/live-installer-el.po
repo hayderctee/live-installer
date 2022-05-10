@@ -191,8 +191,8 @@ msgstr "Είδος Εγκατάστασης"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Θέλετε να εγκαταστήσετε το LMDE;"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Θέλετε να εγκαταστήσετε το Uruk GNU/Linux 3.0;"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr "Καλώς ήρθατε στο %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Αυτό το πρόγραμμα θα σας κάνει μερικές ερωτήσεις και θα εγκαταστήσει το LMDE "
+"Αυτό το πρόγραμμα θα σας κάνει μερικές ερωτήσεις και θα εγκαταστήσει το Uruk GNU/Linux 3.0 "
 "στον υπολογιστή σας."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -326,8 +326,8 @@ msgstr "Αυτοματοποιημένη Εγκατάσταση"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Διαγραφή δίσκου και εγκατάσταση LMDE σε αυτό."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Διαγραφή δίσκου και εγκατάσταση Uruk GNU/Linux 3.0 σε αυτό."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -361,9 +361,9 @@ msgstr "Διαμέριση με το χέρι"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
 msgstr ""
-"Δημιουργήστε, αλλάξτε το μέγεθος ή διαλέξτε διαμερίσματα για το LMDE."
+"Δημιουργήστε, αλλάξτε το μέγεθος ή διαλέξτε διαμερίσματα για το Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

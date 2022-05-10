@@ -191,8 +191,8 @@ msgstr "Tipus d'instal·lació"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "On voleu instal·lar LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "On voleu instal·lar Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr "Benvingut a %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Aquest programa us farà algunes preguntes i configurarà LMDE en el vostre "
+"Aquest programa us farà algunes preguntes i configurarà Uruk GNU/Linux 3.0 en el vostre "
 "equip."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -326,8 +326,8 @@ msgstr "Instal·lació automatitzada"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Esborrar un disc i instal·lar-hi LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Esborrar un disc i instal·lar-hi Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -361,8 +361,8 @@ msgstr "Particionat manual"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Crear, redimensionar o triar particions de LMDE manualment."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Crear, redimensionar o triar particions de Uruk GNU/Linux 3.0 manualment."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

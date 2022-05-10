@@ -192,8 +192,8 @@ msgstr "Anaw n usbeddi"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Anida tebɣiḍ ad tesbeddeḍ LMDE ?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Anida tebɣiḍ ad tesbeddeḍ Uruk GNU/Linux 3.0 ?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -244,9 +244,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Ahil-agi ad k-d-yefk kra n isteqsiyen yerna ad isbedd LMDE ɣef uselkim-inek."
+"Ahil-agi ad k-d-yefk kra n isteqsiyen yerna ad isbedd Uruk GNU/Linux 3.0 ɣef uselkim-inek."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -322,8 +322,8 @@ msgstr "Asbeddi awurman"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Sfeḍ aḍebsi u sbedd degs LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Sfeḍ aḍebsi u sbedd degs Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -357,8 +357,8 @@ msgstr "Beḍḍu n uḍebsi s ufus"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Snulfu-d, beddel tiddi neɣ fren iḥricen i LMDE s ufus."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Snulfu-d, beddel tiddi neɣ fren iḥricen i Uruk GNU/Linux 3.0 s ufus."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

@@ -187,8 +187,8 @@ msgstr "סוג התקנה"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "היכן להתקין את LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "היכן להתקין את Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -239,8 +239,8 @@ msgstr "ברוכים הבאים ל־%s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
-msgstr "התכנה תשאל מספר שאלות ותתקין את LMDE במחשב."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
+msgstr "התכנה תשאל מספר שאלות ותתקין את Uruk GNU/Linux 3.0 במחשב."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -319,8 +319,8 @@ msgstr "התקנה אוטומטית"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "מחקת הכונן והתקנת LMDE."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "מחקת הכונן והתקנת Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -354,8 +354,8 @@ msgstr "החצצה ידנית"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "יצירת, שינוי גודל ובחירת מחיצות ל־LMDE באופן ידני."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "יצירת, שינוי גודל ובחירת מחיצות ל־Uruk GNU/Linux 3.0 באופן ידני."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

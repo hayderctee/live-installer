@@ -193,8 +193,8 @@ msgstr "Врста инсталације"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Где желите да инсталирате LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Где желите да инсталирате Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -245,9 +245,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Овај програм ће вам поставити неколико питања и подесите LMDE за рад на "
+"Овај програм ће вам поставити неколико питања и подесите Uruk GNU/Linux 3.0 за рад на "
 "вашем рачунару."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -324,8 +324,8 @@ msgstr "Аутоматска инсталација"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Обриши диск и инсталирај LMDE на њега."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Обриши диск и инсталирај Uruk GNU/Linux 3.0 на њега."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -359,8 +359,8 @@ msgstr "Ручно партиционирање"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Ручно направите, промените величину или изаберите партицију за LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Ручно направите, промените величину или изаберите партицију за Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

@@ -191,8 +191,8 @@ msgstr "Typo de installation"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Ubi desira tu installar LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Ubi desira tu installar Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -243,9 +243,9 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Iste programma te facera alcun questiones e implementara le LMDE sur tu "
+"Iste programma te facera alcun questiones e implementara le Uruk GNU/Linux 3.0 sur tu "
 "computator."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -322,8 +322,8 @@ msgstr "Installation automatic"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Cancellar un disco e installar LMDE sur illo."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Cancellar un disco e installar Uruk GNU/Linux 3.0 sur illo."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -357,8 +357,8 @@ msgstr "Partitionamento manual"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Crea, redimensiona o elige manualmente partitiones pro LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Crea, redimensiona o elige manualmente partitiones pro Uruk GNU/Linux 3.0."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

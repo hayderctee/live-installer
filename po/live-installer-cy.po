@@ -192,8 +192,8 @@ msgstr "Math o Osodiad"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "Lle ydych chi am osod LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "Lle ydych chi am osod Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -244,9 +244,9 @@ msgstr "Croeso i %s!"
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
 msgstr ""
-"Bydd y rhaglen hon yn gofyn rhai cwestiynau i chi ac yn gosod LMDE ar eich "
+"Bydd y rhaglen hon yn gofyn rhai cwestiynau i chi ac yn gosod Uruk GNU/Linux 3.0 ar eich "
 "cyfrifiadur."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -327,8 +327,8 @@ msgstr "Gosodiad Awtomataidd"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
-msgstr "Dileu disg a gosod LMDE arni."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgstr "Dileu disg a gosod Uruk GNU/Linux 3.0 arni."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
 #: usr/share/live-installer/interface.ui.h:19
@@ -362,8 +362,8 @@ msgstr "Rhannu â Llaw"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
-msgstr "Creu, newid maint neu ddewis rhaniadau ar gyfer LMDE â llaw."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgstr "Creu, newid maint neu ddewis rhaniadau ar gyfer Uruk GNU/Linux 3.0 â llaw."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
 #: usr/share/live-installer/interface.ui.h:25

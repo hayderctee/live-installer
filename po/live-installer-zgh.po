@@ -185,8 +185,8 @@ msgstr "ⴰⵏⴰⵡ ⵏ ⵓⵙⵔⵙ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install LMDE?"
-msgstr "ⵎⴰⵏⵉ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵔⵙⴷ LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgstr "ⵎⴰⵏⵉ ⵜⵅⵙⴷ ⴰⴷ ⵜⵙⵔⵙⴷ Uruk GNU/Linux 3.0?"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
 msgid "Partitioning"
@@ -237,8 +237,8 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
-msgstr "ⴰⴷ ⴽ ⵉⵙⵇⵙⴰ ⵓⵎⵀⵉⵍ ⴰ ⴽⵔⴰ ⵏ ⵉⵙⵇⵙⵉⵜⵏ ⵀⴰ ⴰⴷ ⵉⵙⵔⵙ LMDE ⴳ ⵓⵎⵙⵙⵓⴷⵙ ⵏⵏⴽ."
+"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
+msgstr "ⴰⴷ ⴽ ⵉⵙⵇⵙⴰ ⵓⵎⵀⵉⵍ ⴰ ⴽⵔⴰ ⵏ ⵉⵙⵇⵙⵉⵜⵏ ⵀⴰ ⴰⴷ ⵉⵙⵔⵙ Uruk GNU/Linux 3.0 ⴳ ⵓⵎⵙⵙⵓⴷⵙ ⵏⵏⴽ."
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
 #: usr/share/live-installer/interface.ui.h:5
@@ -314,7 +314,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install LMDE on it."
+msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
@@ -349,7 +349,7 @@ msgstr "ⴰⴱⵟⵟⵓ ⵙ ⵓⴼⵓⵙ"
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
