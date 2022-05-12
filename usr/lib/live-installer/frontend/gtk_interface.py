@@ -287,7 +287,7 @@ class InstallerWindow:
         else:
             self.builder.get_object("button_expert").hide()
 
-        self.builder.get_object("headerbar").set_title("LMDE 5 'Elsie'")
+        self.builder.get_object("headerbar").set_title("Uruk 3.0 'Nannar'")
         self.builder.get_object("headerbar").set_subtitle(subtitle)
 
         # Header
@@ -296,8 +296,8 @@ class InstallerWindow:
         self.wizard_pages[self.PAGE_TIMEZONE] = WizardPage(_("Timezone"), "mark-location-symbolic", _("Where are you?"))
         self.wizard_pages[self.PAGE_KEYBOARD] = WizardPage(_("Keyboard layout"), "preferences-desktop-keyboard-symbolic", _("What is your keyboard layout?"))
         self.wizard_pages[self.PAGE_USER] = WizardPage(_("User account"), "avatar-default-symbolic", _("Who are you?"))
-        self.wizard_pages[self.PAGE_TYPE] = WizardPage(_("Installation Type"), "drive-harddisk-system-symbolic", _("Where do you want to install LMDE?"))
-        self.wizard_pages[self.PAGE_PARTITIONS] = WizardPage(_("Partitioning"), "drive-harddisk-system-symbolic", _("Where do you want to install LMDE?"))
+        self.wizard_pages[self.PAGE_TYPE] = WizardPage(_("Installation Type"), "drive-harddisk-system-symbolic", _("Where do you want to install Uruk GNU/Linux?"))
+        self.wizard_pages[self.PAGE_PARTITIONS] = WizardPage(_("Partitioning"), "drive-harddisk-system-symbolic", _("Where do you want to install Uruk GNU/Linux?"))
         self.wizard_pages[self.PAGE_ADVANCED] = WizardPage(_("Advanced options"), "preferences-system-symbolic", "Configure the boot menu")
         self.wizard_pages[self.PAGE_OVERVIEW] = WizardPage(_("Summary"), "object-select-symbolic", "Check that everything is correct")
         self.wizard_pages[self.PAGE_INSTALL] = WizardPage(_("Installing"), "system-run-symbolic", "Please wait...")
@@ -310,8 +310,8 @@ class InstallerWindow:
         self.builder.get_object("button_next").set_label(_("Next"))
 
         # Welcome page
-        self.builder.get_object("label_welcome1").set_text(_("Welcome to %s!") % "LMDE 5")
-        self.builder.get_object("label_welcome2").set_text(_("This program will ask you some questions and set up LMDE on your computer."))
+        self.builder.get_object("label_welcome1").set_text(_("Welcome to %s!") % "Uruk GNU/Linux 3.0")
+        self.builder.get_object("label_welcome2").set_text(_("This program will ask you some questions and set up Uruk GNU/Linux on your computer."))
         self.builder.get_object("button_lets_go").set_label(_("Let's go!"))
 
         # Language page
@@ -339,14 +339,14 @@ class InstallerWindow:
 
         # Type page
         self.builder.get_object("label_automated").set_text(_("Automated Installation"))
-        self.builder.get_object("label_automated2").set_text(_("Erase a disk and install LMDE on it."))
+        self.builder.get_object("label_automated2").set_text(_("Erase a disk and install Uruk GNU/Linux on it."))
         self.builder.get_object("label_disk").set_text(_("Disk:"))
         self.builder.get_object("label_encrypt").set_text(_("Encrypt the operating system"))
         self.builder.get_object("entry_passphrase").set_placeholder_text(_("Passphrase"))
         self.builder.get_object("entry_passphrase2").set_placeholder_text(_("Confirm passphrase"))
         self.builder.get_object("label_lvm").set_text(_("Use LVM (Logical Volume Management)"))
         self.builder.get_object("label_manual").set_text(_("Manual Partitioning"))
-        self.builder.get_object("label_manual2").set_text(_("Manually create, resize or choose partitions for LMDE."))
+        self.builder.get_object("label_manual2").set_text(_("Manually create, resize or choose partitions for Uruk GNU/Linux."))
         self.builder.get_object("label_badblocks").set_text(_("Fill the disk with random data"))
         self.builder.get_object("check_badblocks").set_tooltip_text(_("This provides extra security but it can take hours."))
 
