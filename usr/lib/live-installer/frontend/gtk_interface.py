@@ -232,8 +232,8 @@ class InstallerWindow:
 
         # pre-fill user details in debug mode
         if __debug__:
-            self.builder.get_object("entry_name").set_text("John Boone")
-            self.builder.get_object("entry_username").set_text("john")
+            self.builder.get_object("entry_name").set_text("Hayder Majid")
+            self.builder.get_object("entry_username").set_text("hayder")
             self.builder.get_object("entry_hostname").set_text("mars")
             self.builder.get_object("entry_password").set_text("dummy_password")
             self.builder.get_object("entry_confirm").set_text("dummy_password")
@@ -971,7 +971,7 @@ class InstallerWindow:
 
                 if not found_root_partition:
                     ErrorDialog(_("Installer"), "<b>%s</b>" % _("Please select a root (/) partition."), _(
-                        "A root partition is needed to install UrukOS on.\n\n"
+                        "A root partition is needed to install Uruk GNU/Linux on.\n\n"
                         " - Mount point: /\n - Recommended size: 30GB\n"
                         " - Recommended filesystem format: ext4\n"))
                     return

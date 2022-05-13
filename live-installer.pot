@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 20:41+0300\n"
+"POT-Creation-Date: 2022-05-13 11:24+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:299
 #: usr/lib/live-installer/frontend/gtk_interface.py:300
-msgid "Where do you want to install LMDE?"
+msgid "Where do you want to install Uruk GNU/Linux?"
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:300
@@ -220,7 +220,8 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:314
 msgid ""
-"This program will ask you some questions and set up LMDE on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux on your "
+"computer."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:315
@@ -295,7 +296,7 @@ msgid "Automated Installation"
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:342
-msgid "Erase a disk and install LMDE on it."
+msgid "Erase a disk and install Uruk GNU/Linux on it."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:343
@@ -329,7 +330,7 @@ msgid "Manual Partitioning"
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:349
-msgid "Manually create, resize or choose partitions for LMDE."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:350
@@ -517,7 +518,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:974
 msgid ""
-"A root partition is needed to install UrukOS on.\n"
+"A root partition is needed to install Uruk GNU/Linux on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"

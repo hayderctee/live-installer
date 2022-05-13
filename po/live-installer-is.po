@@ -1,7 +1,7 @@
 # translation of live-installer_live-installer-is.po to Icelandic
-# Icelandic translation for urukos
+# Icelandic translation for Uruk GNU/Linux
 # Copyright (c) 2010 Free Software Foundation
-# This file is distributed under the same license as the urukos package.
+# This file is distributed under the same license as the Uruk GNU/Linux package.
 #
 # Sveinn í Felli <sveinki@nett.is>, 2010, 2011, 2014, 2015, 2020.
 msgid ""

@@ -1,17 +1,17 @@
-# Japanese translation for urukos
+# Japanese translation for Uruk GNU/Linux
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the urukos package.
+# This file is distributed under the same license as the Uruk GNU/Linux package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: urukos\n"
-"Report-Msgid-Bugs-To: https://launchpad.net/~urukos-translation-team-"
+"Project-Id-Version: Uruk GNU/Linux\n"
+"Report-Msgid-Bugs-To: https://launchpad.net/~Uruk GNU/Linux-translation-team-"
 "japanese\n"
 "POT-Creation-Date: 2022-03-07 12:03+0000\n"
 "PO-Revision-Date: 2022-03-07 19:59+0000\n"
 "Last-Translator: vega m57 <Unknown>\n"
-"Language-Team: Japanese <https://launchpad.net/~urukos-translation-team-"
+"Language-Team: Japanese <https://launchpad.net/~Uruk GNU/Linux-translation-team-"
 "japanese>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

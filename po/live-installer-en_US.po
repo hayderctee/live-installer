@@ -1,11 +1,11 @@
-# English (United States) translation for urukos
+# English (United States) translation for Uruk GNU/Linux
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the urukos package.
+# This file is distributed under the same license as the Uruk GNU/Linux package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: urukos\n"
+"Project-Id-Version: Uruk GNU/Linux\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-03-07 12:03+0000\n"
 "PO-Revision-Date: 2011-03-16 04:30+0000\n"
@@ -185,7 +185,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:295
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
-msgid "Where do you want to install Uruk GNU/Linux 3.0?"
+msgid "Where do you want to install Uruk GNU/Linux?"
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:296
@@ -237,7 +237,7 @@ msgstr ""
 #: usr/lib/live-installer/frontend/gtk_interface.py:310
 #: usr/share/live-installer/interface.ui.h:4
 msgid ""
-"This program will ask you some questions and set up Uruk GNU/Linux 3.0 on your computer."
+"This program will ask you some questions and set up Uruk GNU/Linux on your computer."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:311
@@ -314,7 +314,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:338
 #: usr/share/live-installer/interface.ui.h:18
-msgid "Erase a disk and install Uruk GNU/Linux 3.0 on it."
+msgid "Erase a disk and install Uruk GNU/Linux on it."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:339
@@ -349,7 +349,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:345
 #: usr/share/live-installer/interface.ui.h:27
-msgid "Manually create, resize or choose partitions for Uruk GNU/Linux 3.0."
+msgid "Manually create, resize or choose partitions for Uruk GNU/Linux."
 msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:346
@@ -534,7 +534,7 @@ msgstr ""
 
 #: usr/lib/live-installer/frontend/gtk_interface.py:962
 msgid ""
-"A root partition is needed to install UrukOS on.\n"
+"A root partition is needed to install Uruk GNU/Linux on.\n"
 "\n"
 " - Mount point: /\n"
 " - Recommended size: 30GB\n"

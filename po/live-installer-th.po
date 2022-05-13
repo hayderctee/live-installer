@@ -1,11 +1,11 @@
-# Thai translation for urukos
+# Thai translation for Uruk GNU/Linux
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the urukos package.
+# This file is distributed under the same license as the Uruk GNU/Linux package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: urukos\n"
+"Project-Id-Version: Uruk GNU/Linux\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-03-07 12:03+0000\n"
 "PO-Revision-Date: 2021-04-02 06:59+0000\n"
